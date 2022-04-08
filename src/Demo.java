@@ -5,6 +5,6 @@ public class Demo {
         LiquidCountVisitor visitor = new LiquidCountVisitor();
         traverser.traverse(table, visitor);
         System.out.println(table);
-        System.out.println(visitor.getLiquidAmount());
+        visitor.report();
     }
 }
