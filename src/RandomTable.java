@@ -2,13 +2,13 @@ import java.util.Random;
 
 public class RandomTable {
 
-    private static final String[] COLORS = {"white", "black", "blue", "red", "green", "purple"};
-    private static final String[] SILVERWARES = {"fork", "knife", "spoon"};
+    public static final String[] COLORS = {"white", "black", "blue", "red", "green", "purple"};
+    public static final String[] SILVERWARES = {"fork", "knife", "spoon"};
 
     public static DinnerTable getRandomTable() {
         DinnerTable table = new DinnerTable();
         Random rand = new Random();
-        int numItems = rand.nextInt(20) + 8;
+        int numItems = rand.nextInt(100) + 20;
         int randItemNum;
         for (int i = 0; i < numItems; i++) {
             Item randItem = null;
