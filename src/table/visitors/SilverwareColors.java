@@ -1,6 +1,6 @@
 package table.visitors;
 
-import table.items.Color;
+import table.items.Item.Color;
 import table.items.Silverware;
 import table.items.Silverware.SilverwareType;
 

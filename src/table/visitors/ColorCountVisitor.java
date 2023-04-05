@@ -1,11 +1,11 @@
 package table.visitors;
 
 import table.items.CoffeeCup;
-import table.items.Color;
 import table.items.Item;
 import table.items.JuiceGlass;
 import table.items.Plate;
 import table.items.Silverware;
+import table.items.Item.Color;
 
 /**
  * Counts the occurances of each color on a table.

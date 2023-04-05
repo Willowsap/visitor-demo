@@ -11,6 +11,23 @@ import table.visitors.TableVisitor;
 public abstract class Item
 {
     /**
+     * The possible colors of items.
+     */
+    public enum Color {
+        WHITE,
+        BLACK,
+        RED,
+        ORANGE,
+        YELLOW,
+        GREEN,
+        BLUE,
+        INDIGO,
+        VIOLET,
+        CYAN,
+        FUCHSIA
+    }
+
+    /**
      * The name of the item.
      */
     protected String name;

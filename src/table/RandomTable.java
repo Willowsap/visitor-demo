@@ -2,7 +2,7 @@ package table;
 import java.util.Random;
 
 import table.items.CoffeeCup;
-import table.items.Color;
+import table.items.Item.Color;
 import table.items.Item;
 import table.items.JuiceGlass;
 import table.items.Plate;
